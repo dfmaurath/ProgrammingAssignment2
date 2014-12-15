@@ -50,7 +50,6 @@ makeCacheMatrix <- function(x = numeric()) {
         list(setMatrix = setMatrix, getMatrix = getMatrix, cacheInverse = cacheInverse, getInverse = getInverse)
 }
 
-
 # The following function calculates the inverse of a "special" matrix created with 
 # makeCacheMatrix
 cacheSolve <- function(y, ...) {
